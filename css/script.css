@@ -1,0 +1,37 @@
+input {
+    position: relative;
+	padding: 5px;
+}
+.input input {
+    display: block;
+    width: 15%;
+    padding: .75rem 2.5rem .75rem 1rem;
+    background: none;
+    border: 2px groove black;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #444;
+}
+
+.button {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 14px 80px;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(214, 32, 19);
+  font-size: 1.5rem;
+  font-family: monospace;
+  border: 1px solid rgb(180, 32, 19);
+}
+
+.button:hover {
+  color: #006398;
+  border: 1px solid #006398;
+}
+
+.pic_center {
+  display: block;
+  margin: 0 auto;
+} 
